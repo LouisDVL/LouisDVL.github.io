@@ -9,6 +9,14 @@ body {
   animation: fadeIn 2s;
 }
 
+img {
+  width: 100%;
+}
+
+p {
+  font-weight: 600;
+}
+
 a {
   color: black;
   text-decoration-color: transparent;
@@ -47,6 +55,14 @@ a:hover {
 .webBrand {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.blog:first-child {
+  border-top: 2px solid black;
+}
+
+.blogCard {
+  border-bottom: 2px solid black;
 }
 
 @keyframes fadeIn {
