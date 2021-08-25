@@ -4,20 +4,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Sprint 4</title>
-    <link href="../styles/main.css" rel="stylesheet" type="text/css"/>
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
       rel="stylesheet"
     />
+  </head>
+  <script src="https://use.fontawesome.com/fd73294ec3.js"></script>
   <body>
     <!-- 
       try and create nav
       content
     -->
     <div class="navbar">
-      <div class="navGroup">
+      <div class="navGroup" id="myTopnav">
         <a href="../index.html">
           <span class="webBrand">My Blog</span>
         </a>
@@ -36,27 +38,32 @@
         <a href="./sprint5.html">
           <span class="">Sprint 5</span>
         </a>
+        <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
       </div>
     </div>
 
-
     <div class="container">
       <div class="content">
-    <div class="blog">
-      <a href="./neuroplasticity.html">
-        <div class="blogCard">
-          <h1> Neuroplasticity & Growth Mindset </h1>
-          <p>What is Neuroplasticity and how is a growth mindset related?</p>
+        <div class="blog">
+          <a href="./neuroplasticity.html">
+            <div class="blogCard">
+              <h1>Neuroplasticity & Growth Mindset</h1>
+              <p>
+                What is Neuroplasticity and how is a growth mindset related?
+              </p>
+            </div>
+          </a>
+          <a href="./problem-solving.html">
+            <div class="blogCard">
+              <h1>Problem Solving</h1>
+              <p>Techniques and proccesses for problem solving.</p>
+            </div>
+          </a>
         </div>
-      </a>
-      <a href="./problem-solving.html">
-        <div class="blogCard">
-          <h1> Problem Solving </h1>
-          <p>Techniques and proccesses for problem solving.</p>
-        </div>
-      </a>
+      </div>
     </div>
-    </div>
-  </div>
+    <script src="../JS/index.js"></script>
   </body>
 </html>
