@@ -90,6 +90,12 @@ a:hover {
 
 @media (max-width: 48rem) {
   .content {
+    width: 90%;
+  }
+}
+
+@media (max-width: 20rem) {
+  .content {
     width: 100%;
   }
 
