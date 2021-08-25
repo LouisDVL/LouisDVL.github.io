@@ -4,20 +4,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>My blog</title>
-    <link href="styles/main.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/main.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
       rel="stylesheet"
     />
+  </head>
+  <script src="https://use.fontawesome.com/fd73294ec3.js"></script>
   <body>
     <!-- 
       try and create nav
       content
     -->
     <div class="navbar">
-      <div class="navGroup">
+      <div class="navGroup" id="myTopnav">
         <a href="index.html">
           <span class="webBrand">My Blog</span>
         </a>
@@ -36,59 +38,64 @@
         <a href="./blog/sprint5.html">
           <span class="">Sprint 5</span>
         </a>
+        <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
       </div>
     </div>
 
-
     <div class="container">
       <div class="content">
-    <div class="blog">
-      <a href="./blog/sprint1.html">
-        <div class="blogCard">
-          <h1>Sprint 1</h1>
-          <ul>
-            <li>First template html</li>
-            <li>Identity and Values</li>
-          </ul>
+        <div class="blog">
+          <a href="./blog/sprint1.html">
+            <div class="blogCard">
+              <h1>Sprint 1</h1>
+              <ul>
+                <li>First template html</li>
+                <li>Identity and Values</li>
+              </ul>
+            </div>
+          </a>
+          <a href="./blog/sprint2.html">
+            <div class="blogCard">
+              <h1>Sprint 2</h1>
+              <ul>
+                <li>
+                  What is the difference between margin, border, and padding
+                </li>
+                <li>Learning Plan</li>
+              </ul>
+            </div>
+          </a>
+          <a href="./blog/sprint3.html">
+            <div class="blogCard">
+              <h1>Sprint 3</h1>
+              <ul>
+                <li>Emotional Intelligence</li>
+                <li>Javascript Technical Blog</li>
+              </ul>
+            </div>
+          </a>
+          <a href="./blog/sprint4.html">
+            <div class="blogCard">
+              <h1>Sprint 4</h1>
+              <ul>
+                <li>Neuroplasticity</li>
+                <li>Problem Solving</li>
+              </ul>
+            </div>
+          </a>
+          <a href="./blog/sprint5.html">
+            <div class="blogCard">
+              <h1>Sprint 5</h1>
+              <ul>
+                <li>Foundations Reflections</li>
+              </ul>
+            </div>
+          </a>
         </div>
-      </a>
-      <a href="./blog/sprint2.html">
-        <div class="blogCard">
-          <h1>Sprint 2</h1>
-          <ul>
-            <li>What is the difference between margin, border, and padding</li>
-            <li>Learning Plan</li>
-          </ul>
-        </div>
-      </a>
-      <a href="./blog/sprint3.html">
-        <div class="blogCard">
-          <h1>Sprint 3</h1>
-          <ul>
-            <li>Emotional Intelligence </li>
-            <li>Javascript Technical Blog</li>
-          </ul>
-        </div>
-      </a>
-      <a href="./blog/sprint4.html">
-        <div class="blogCard">
-          <h1>Sprint 4</h1>
-          <ul>
-            <li>Neuroplasticity </li>
-            <li>Problem Solving</li>
-          </ul>
-        </div>
-      </a>
-      <a href="./blog/sprint5.html">
-        <div class="blogCard">
-          <h1>Sprint 5</h1>
-          <ul>
-            <li>Foundations Reflections </li>
-          </ul>
-        </div>
-      </a>
+      </div>
     </div>
-    </div>
-  </div>
+    <script src="./JS/index.js"></script>
   </body>
 </html>
