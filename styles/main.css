@@ -92,13 +92,6 @@ a:hover {
   .content {
     width: 90%;
   }
-}
-
-@media (max-width: 48rem) {
-  .content {
-    width: 100%;
-  }
-
   .navGroup a:not(:first-child) {
     display: none;
   }
@@ -123,5 +116,11 @@ a:hover {
     display: block;
     text-align: left;
     margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 20rem) {
+  .content {
+    width: 100%;
   }
 }
